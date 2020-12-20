@@ -1,5 +1,8 @@
 body{
-    background-color: white;
+    background-color: #63d471;
+    background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+
+
 
 }
 #titolo{
