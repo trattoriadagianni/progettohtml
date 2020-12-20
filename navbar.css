@@ -1,0 +1,53 @@
+#logo{
+
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  height: auto;
+
+}
+
+.navbar ul {
+  
+  display:flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar li {
+  margin:0px auto 0px auto;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 5px;
+  text-decoration: none;
+}
+
+
+/*Animazioni hover per ogni pagina*/
+
+.navbar li #home:hover {
+  background-color: #111;
+}
+
+.navbar li #xbox:hover {
+  background-color: #107C10;
+}
+
+.navbar li #ps:hover {
+  background-color: #003087;
+}
+
+.navbar li #pc:hover {
+  background-color: red;
+}
+
+.navbar li #about:hover {
+  background-color: rgb(65, 62, 62);
+}

@@ -1,35 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>SFLS</title>
 
     <link rel="stylesheet" type="text/css" href="css/pc.css">
 </head>
+
 <body>
-<h1 id="titolo">PC</h1>
-<center>
-    <img src="../images/pc/logo.png" id="pc-img" alt="logo"><br>
-    <h1 style="text-align: center">Schede madri disponibili:</h1>
+    <!-- barra di navigazione, comune a tutte le pagine. Il suo stile si trova nel foglio navbar.css-->
+    <div class="navbar">
+
+        <link rel="stylesheet" type="text/css" href="/navbar.css">
+        <a href="/index.html"><img src="/logo.png" class="logo" alt="logo" style="height: 350px; width: auto; "></a>
+        <ul>
+            <li><a href="/index.html" id="home">Home</a></li>
+            <li><a href="/xbox/xbox.html" id="xbox">Xbox</a></li>
+            <li><a href="/" id="ps">PlayStation</a></li>
+            <li><a href="/pc/pc-home.html" id="pc">PC</a></li>
+            <li><a href="about.asp" id="about">About</a></li>
+        </ul>
+    </div>
 
 
-    <div id="scheda1">
+
+    <h1 id="titolo">PC</h1>
+    <center>
+
+        <img src="../images/pc/logo.png" id="pc-img" alt="logo"><br>
+        <h1 style="text-align: center">Schede madri disponibili:</h1>
+
+
+        <div id="scheda1"></div>
         <a href="https://www.amazon.it/MSI-B365M-PRO-VDH-M-ATX-1151/dp/B07V1P1R4J" target="_blank">
             <img src="../images/pc/schedamadre1.png" id="pc-img">
         </a><br>
-        <h2 >MB MSI B365M PRO-VDH M.ATX LGA 1151</h2>
-    </div><br><br>
+        <h2>MB MSI B365M PRO-VDH M.ATX LGA 1151</h2>
+        </div><br><br>
 
-    <div id="scheda2">
-        <a href="https://www.amazon.it/MSI-B460M-PRO-VDH-WIFI-S1200/dp/B08B1SWYGD/" target="_blank">
-            <img src="../images/pc/schedamadre2.png" id="pc-img">
-        </a><br>
-        <h2>MB MSI B460M PRO-VDH WIFI S1200</h2>
-    </div><br><br>
+        <div id="scheda2">
+            <a href="hhttps://www.amazon.it/MSI-B460M-PRO-VDH-WIFI-S1200/dp/B08B1SWYGD" target="_blank">
+                <img src="../images/pc/schedamadre2.png" id="pc-img">
+            </a><br>
+            <h2>MB MSI B460M PRO-VDH WIFI S1200</h2>
+        </div><br><br>
 
 
 
-    <img src="../images/pc/nvidia3080.png" id="pc-img">
-</center>
+        <img src="../images/pc/nvidia3080.png" id="pc-img">
+    </center>
 
 </body>
+
 </html>
