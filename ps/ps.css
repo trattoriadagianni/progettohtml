@@ -1,0 +1,28 @@
+body{
+    background-color: #003790;
+    
+
+
+
+}
+#titolo{
+    color: rgb(18, 33, 252);
+    text-align: center;
+    text-decoration: underline; 
+    font-size: 300%;
+    font-family: arial;
+}
+
+#titparagraf{
+    color: black;
+    font-size: 170%;
+    font-family: Arial;
+    text-align: center;
+}
+
+#Periferiche{
+    color: black;
+    text-align: center;
+    font-size: 170%;
+    font-family: arial;
+}
