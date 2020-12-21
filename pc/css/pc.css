@@ -18,7 +18,15 @@ body {
 
 .pc-img {
 
-    width: 250px;
+    width: 200px;
+    height: auto;
+
+}
+
+
+.cpu-img {
+
+    width: 200px;
     height: auto;
 
 }
