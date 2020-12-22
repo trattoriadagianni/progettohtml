@@ -1,5 +1,6 @@
+
 body{
-    background-color: #003790;
+    background:linear-gradient(-120deg, #021B79, #0575E6, #205E9B);
     
 
 
@@ -25,4 +26,14 @@ body{
     text-align: center;
     font-size: 170%;
     font-family: arial;
+}
+
+
+img{
+
+    width: 330px;
+    height: auto;
+
+
+
 }
