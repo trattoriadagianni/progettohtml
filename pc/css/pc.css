@@ -18,8 +18,9 @@ body {
 
 .img {
 
-    width: 200px;
+    width: 250px;
     height: auto;
+    margin: auto;
 
 }
 
@@ -32,6 +33,7 @@ body {
 h1 {
 
     font-family: 'Oswald', sans-serif;
+    text-align: center;
 
 
 }
@@ -43,3 +45,13 @@ h2 {
 
 
 }
+
+
+a {
+
+    text-decoration: none;
+
+
+
+}
+
