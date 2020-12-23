@@ -13,17 +13,10 @@ body{
     font-family: arial;
 }
 
-#titparagraf{
-    color: black;
-    font-size: 170%;
-    font-family: Arial;
-    text-align: center;
-}
-
-#Periferiche{
+h2{
+    
     color: black;
     text-align: center;
     font-size: 170%;
     font-family: arial;
 }
-
